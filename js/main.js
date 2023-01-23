@@ -67,7 +67,7 @@ let counterMissions = 0;
 const clientTimer = setInterval(() => {
     counterClient++;
     clients.textContent = `${counterClient}`
-    if(counterClient == 570) clearInterval(clientTimer)
+    if(counterClient == 870) clearInterval(clientTimer)
 }, 1);
 
 const qualityTimer = setInterval(() => {
